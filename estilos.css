@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    margin:0;
+}
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width:900px;
+    background-color:orange;
+}
+input{
+    display: block;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.tipoDeOperacion{
+    margin-left: 80px;
+    width: 130px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#resultado{
+        text-align: center;
+        margin-top: 20px;
+        width: 900px;
+        height: 40px;
+        font-style: italic;
+        text-decoration:bold ;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

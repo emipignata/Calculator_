@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" media="screen">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+        <form action="" name="ingresoDeDatos" > 
+            <input type="number" id="primerNro" placeholder="Ingrese un número" required>
+            <input type="number" id="segundoNro" placeholder="Ingrese un número" required>
+            
+            <input onclick="suma(); return false;" type="submit" class="tipoDeOperacion"  value="+">
+            <input onclick="resta(); return false;"type="submit" class="tipoDeOperacion" value="-">
+            <input onclick="multiplicacion(); return false;"type="submit" class="tipoDeOperacion" value="x">
+            <input onclick="division(); return false;"type="submit" class="tipoDeOperacion" value="/">
+        </form>
+        <div id="resultado"> </div>
+    </div>
+    
+</body>
+</html>
